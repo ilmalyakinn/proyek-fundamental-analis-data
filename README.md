@@ -1,6 +1,6 @@
 # 📊 E-Commerce Public Data Analysis Dashboard ✨
 
-Ini adalah proyek akhir (submission) untuk kelas **Belajar Analisis Data dengan Python** dari Dicoding. Proyek ini berfokus pada analisis data E-Commerce publik menggunakan bahasa pemrograman Python, di mana data diolah, dieksplorasi, dan kemudian disajikan dalam bentuk dashboard interaktif menggunakan **Streamlit**.
+Ini adalah proyek akhir (submission) untuk kelas **Belajar Fundamental Analisis Data** dari Dicoding. Proyek ini berfokus pada analisis data E-Commerce publik menggunakan bahasa pemrograman Python dan kemudian disajikan dalam bentuk dashboard menggunakan **Streamlit**.
 
 ## � Fitur Dashboard
 Dashboard ini menyajikan berbagai analisis bisnis penting:
@@ -46,13 +46,6 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-**Menggunakan `pip` (Mac/Linux):**
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
 **Menggunakan `conda`:**
 ```bash
 conda create --name main-ds python=3.10
@@ -76,5 +69,3 @@ Dashboard akan otomatis terbuka pada antarmuka web browser Anda di alamat lokal 
 Di dalam dashboard terdapat fitur filter *Date Range* (rentang waktu) pada bagian antarmuka samping (sidebar). 
 - Harap **pilih 2 tanggal** batas pada kalender dropdown yang disediakan agar semua grafik menampilkan visualisasi data dalam rentang tersebut. Contoh: `2016/09/22` – `2017/09/13`.
 
----
-🌟 *Dibuat oleh Ilmal Yakin untuk Final Submission Analisis Data (Dicoding)*
